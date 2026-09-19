@@ -1,11 +1,12 @@
-/// Typesetting terminal symbols in the grammar
-#let terminal(x) = {
-  text(fill: eastern, $mono(#x)$)
-}
-
 // TODO somehow make this a global config
 // TODO also fix it in HTML which doesn't seem to work with font: at all
 #let main_font_name = "Libertinus"
+#let mono_font_name = "Monospace"
+
+/// Typesetting terminal symbols in the grammar
+#let terminal(x) = {
+  text(fill: eastern, font: mono_font_name)[#x]
+}
 
 /// Typesetting nonterminal symbols in the gramma
 #let nonterminal(x) = {
