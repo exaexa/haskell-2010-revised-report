@@ -1,7 +1,7 @@
 // TODO somehow make this a global config
 // TODO also fix it in HTML which doesn't seem to work with font: at all
-#let main_font_name = "Libertinus"
-#let mono_font_name = "Monospace"
+#let main_font_name = "Libertinus Serif"
+#let mono_font_name = "DejaVu Sans Mono"
 
 /// Typesetting terminal symbols in the grammar
 #let terminal(x) = {
