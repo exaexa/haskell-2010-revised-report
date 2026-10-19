@@ -319,7 +319,7 @@ definition of `+` in the Prelude (@sec:fixity-declarations).
   align: (left, center, left),
   stroke: none,
   // decimal
-  $nonterminal("decimal")$, $->$, $nonterminal("ascDigit"){nonterminal("digit")}$,
+  $nonterminal("decimal")$, $->$, $nonterminal("ascDigit"){nonterminal("ascDigit")}$,
   // octal
   $nonterminal("octal")$, $->$, $nonterminal("octit"){nonterminal("octit")}$,
   // hexadecimal

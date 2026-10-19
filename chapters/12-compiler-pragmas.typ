@@ -17,8 +17,8 @@ syntax is `{-# #-}`.
 == Inlining
 
 $
-  nonterminal("decl") &-> mono("{-# INLINE ") varname("qvar")dots mono("#-}") \
-  nonterminal("decl") &-> mono("{-# NOINLINE ") varname("qvar")dots mono("#-}")
+  nonterminal("decl") &-> mono("{-# INLINE ") varname("qvars")dots mono("#-}") \
+  nonterminal("decl") &-> mono("{-# NOINLINE ") varname("qvars")dots mono("#-}")
 $
 
 

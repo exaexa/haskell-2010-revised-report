@@ -495,7 +495,7 @@ foreign import ccall "errno.h &errno" errno :: Ptr CInt
   ```
   It imports the address of the variable `errno`, which is of the C type `int`.
 
-/ Dynamic import:  The type of `dynamic` stub has to be of the
+/ Dynamic import:  The type of a `dynamic` stub has to be of the
   form $(mono("FunPtr") varname("ft")) -> varname("ft")$,  where $varname("ft")$ may
   be any foreign type.
 
